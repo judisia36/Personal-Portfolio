@@ -1,0 +1,108 @@
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    font-family: poppins;
+    border: rgba(228, 142, 43, 0.747);
+    border-radius: 20px;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100ch;
+    margin: 5cm;
+    padding: 0cm;
+ 
+    
+    align-items: flex-end;
+    background-color: rgb(189, 238, 222);
+    
+}
+.navbar{
+
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-links li{
+    margin: 0 15px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+.nav-links li a :hover{
+    color: black;
+}
+P{
+    margin: 2em 2em;
+}
+div{
+    margin: 1em 1em 1em 1em 1em;
+}
+ul{
+    margin-bottom: 20px;
+}
+section{
+    
+    text-align: center;
+   padding: 100px 20px;
+   height: 80vh;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.profile-image{
+    flex: 1;
+    text-align: right;
+}
+.profile-info{
+    flex: 1;
+}
+.profile-image img{
+    max-width: 50%;
+    height: auto;
+}
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-varient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.header{
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
